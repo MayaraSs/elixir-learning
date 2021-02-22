@@ -7,6 +7,8 @@ defmodule MaypayWeb.Router do
 
   scope "/api", MaypayWeb do
     pipe_through :api
+
+    get "/:filename", WelcomeController, :index
   end
 
   # Enables LiveDashboard only for development
