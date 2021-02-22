@@ -1,0 +1,10 @@
+version: "3"
+services:
+  database_test:
+    image: postgres:9.6
+    ports:
+      - 5432:5432
+    environment:
+      # Set user/password for Postgres
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
