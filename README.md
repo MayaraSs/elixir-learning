@@ -1,14 +1,27 @@
 # Maypay
 
-To start your Phoenix server:
+Para iniciar o server:
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server`
+  * Instalar dependencias `mix deps.get`
+  * Criar a migrations `mix ecto.setup`
+  * Iniciar Phoenix endpoint `mix phx.server`
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+## Primeiro dia de NLW4
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+- Fundamentos do Elixir e Phoenix. 
+- Criar rota da APP 
+- Entender Pattern Matching e Pipe Operator
+
+## Segundo dia de NLW4
+
+- Migrations (Enviar código elixir que representar intereções com o banco de dados)
+- Schema (Mapeamento dos dados de cada tabela do banco)
+- Changeset (Validações dos dados antes de usar diretamente no banco)
+- Bcrypt (Hash de senha)
+- Repo (Acesso ao banco de dados)
+- Pattern matching (Guiar o fluxo da aplicação foi um recurso muito poderoso que me ajudou a destrinchar cada vez mais)
+- Views (Usamos para formatar quais dados iremos visualizar nas respostas da nossa API)
+
 
 ## Learn more
 
