@@ -18,6 +18,10 @@ config :maypay, MaypayWeb.Endpoint,
   pubsub_server: Maypay.PubSub,
   live_view: [signing_salt: "3m9Bjiu5"]
 
+config :maypay, Maypay.Repo,
+  migration_primary_key: [type: :binary_id],
+  migration_foreing_key: [type: :binary_id]
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
