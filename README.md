@@ -1,3 +1,6 @@
+# Aplicação
+Api de sistema de pagamento 
+
 # Maypay
 
 Para iniciar o server:
@@ -16,12 +19,15 @@ Para iniciar o server:
 
 - Migrations (Enviar código elixir que representar intereções com o banco de dados)
 - Schema (Mapeamento dos dados de cada tabela do banco)
-- Changeset (Validações dos dados antes de usar diretamente no banco)
+- Changeset (Validações dos dados)
 - Bcrypt (Hash de senha)
 - Repo (Acesso ao banco de dados)
-- Pattern matching (Guiar o fluxo da aplicação foi um recurso muito poderoso que me ajudou a destrinchar cada vez mais)
-- Views (Usamos para formatar quais dados iremos visualizar nas respostas da nossa API)
+- Pattern matching (Guiar o fluxo da aplicação)
+- Views (formatar dados para visualizar nas respostas da API)
 
+## Terceiro dia de NLW4
+- Lidando com erros 
+- Schema e Migrations
 
 ## Learn more
 
