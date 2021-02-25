@@ -24,10 +24,15 @@ Para iniciar o server:
 - Repo (Acesso ao banco de dados)
 - Pattern matching (Guiar o fluxo da aplicação)
 - Views (formatar dados para visualizar nas respostas da API)
+- Router (como criar uma rota)
 
 ## Terceiro dia de NLW4
+- Ecto.Multi
 - Lidando com erros 
+- Fallback Controller (se ninguém lidar com o caso o fallback lida, se não consseguir lidar da erro na tela)
 - Schema e Migrations
+- Criou conta automaticamente ao criar usuário
+- Criou a função de depósito
 
 ## Learn more
 
