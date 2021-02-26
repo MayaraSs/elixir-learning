@@ -34,6 +34,12 @@ Para iniciar o server:
 - Criou conta automaticamente ao criar usuário
 - Criou a função de depósito
 
+
+## Quarto dia de NLW4
+- Criar função de saque
+- Criar função de transferência
+- Criar struct
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
