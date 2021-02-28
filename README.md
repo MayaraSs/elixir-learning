@@ -40,6 +40,11 @@ Para iniciar o server:
 - Criar função de transferência
 - Criar struct
 
+
+## Quinto dia NLW4
+- Autenticação 
+- Testes
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
