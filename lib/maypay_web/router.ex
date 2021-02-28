@@ -1,8 +1,14 @@
 defmodule MaypayWeb.Router do
   use MaypayWeb, :router
 
+  import Plug.BasicAuth
+
   pipeline :api do
     plug :accepts, ["json"]
+  end
+
+  pipeline :auth do
+    plug :basic_auth, Application.compile_env(:maypay, :basic_auth)
   end
 
   scope "/api", MaypayWeb do
@@ -11,6 +17,11 @@ defmodule MaypayWeb.Router do
     get "/:filename", WelcomeController, :index
 
     post "/users", UsersController, :create
+
+  end
+
+  scope "/api", MaypayWeb do
+    pipe_through [:api, :auth]
 
     post "/accounts/:id/deposit", AccountsController, :deposit
     post "/accounts/:id/withdraw", AccountsController, :withdraw

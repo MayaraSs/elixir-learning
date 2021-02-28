@@ -22,6 +22,10 @@ config :maypay, Maypay.Repo,
   migration_primary_key: [type: :binary_id],
   migration_foreing_key: [type: :binary_id]
 
+config :maypay, :basic_auth,
+  username: "banana",
+  password: "12345678"
+
 # Configures Elixir's Logger
 config :logger, :console,
   format: "$time $metadata[$level] $message\n",
